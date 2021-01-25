@@ -4,7 +4,7 @@ import Header from "../components/Header/Header";
 import { Text, Button, Div } from "atomize";
 import { Spinner } from "react-bootstrap";
 import axiosInstance from "../util/axios";
-
+import React from 'react'
 
 function useOnScreen(options) {
     const ref = React.useRef();
