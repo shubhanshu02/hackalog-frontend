@@ -3,30 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
+    "postbuild": "next-on-netlify",
     "start": "next start",
     "export": "next build && next export"
   },
   "dependencies": {
     "atomize": "^1.0.26",
     "axios": "^0.21.1",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^4.6.0",
+    "browserslist": "^4.16.1",
+    "caniuse-lite": "^1.0.30001179",
     "copy-to-clipboard": "^3.3.1",
     "date-fns": "^2.16.1",
-    "firebase": "^7.24.0",
-    "next": "9.5.5",
-    "react": "16.13.1",
-    "react-bootstrap": "^1.4.0",
-    "react-dom": "16.13.1",
-    "react-icons": "^3.11.0",
-    "react-select": "^3.1.1",
+    "firebase": "^8.2.4",
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.1.0",
+    "react-select": "^4.0.2",
     "react-transition-group": "^4.4.1",
     "styletron-engine-atomic": "^1.4.6",
     "styletron-react": "^5.2.7"
   },
   "devDependencies": {
-    "eslint": "^7.16.0",
-    "eslint-plugin-react": "^7.21.5"
+    "eslint": "^7.18.0",
+    "eslint-plugin-react": "^7.22.0"
   }
 }
